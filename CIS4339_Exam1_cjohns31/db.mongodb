@@ -1,0 +1,15 @@
+// Chad Johnson MongoDB for midterm
+// create database and it's collections. Collections will be used
+// to store documents
+use('reporting');
+db.createCollection('client');
+db.createCollection('residence');
+db.createCollection('contact');
+db.createCollection('employment');
+db.createCollection('education');
+db.createCollection('income');
+db.createCollection('health');
+db.createCollection('family');
+
+// https://www.codegrepper.com/code-examples/whatever/how+to+create+subcollection+in+mongodb
+// correct way to create the collections?
